@@ -1,4 +1,4 @@
-import {
+import type {
   AggregatedResult,
   Config,
   Context,
@@ -19,18 +19,26 @@ export default class JestReporter implements Reporter {
   }
 
   log(message: string): void {
-    console.log(`log arguments: ${JSON.stringify(arguments)}`)
+    console.log(`log message: ${JSON.stringify(message, null, 2)}`)
   }
 
   onRunStart(
     aggregatedResults: AggregatedResult,
     options: ReporterOnStartOptions
   ): void {
-    console.log(`onRunStart arguments: ${JSON.stringify(arguments)}`)
+    console.log(
+      `onRunStart aggregatedResults: ${JSON.stringify(
+        aggregatedResults,
+        null,
+        2
+      )}`
+    )
+
+    console.log(`onRunStart options: ${JSON.stringify(options, null, 2)}`)
   }
 
   onTestStart(test?: Test): void {
-    console.log(`onTestStart arguments: ${JSON.stringify(arguments)}`)
+    console.log(`onTestStart test: ${JSON.stringify(test, null, 2)}`)
   }
 
   onTestResult(
@@ -38,14 +46,30 @@ export default class JestReporter implements Reporter {
     testResult: TestResult,
     aggregatedResults: AggregatedResult
   ): void {
-    console.log(`onTestResult arguments: ${JSON.stringify(arguments)}`)
+    console.log(`onTestResult test: ${JSON.stringify(test, null, 2)}`)
+
+    console.log(
+      `onTestResult testResult: ${JSON.stringify(testResult, null, 2)}`
+    )
+
+    console.log(
+      `onTestResult aggregatedResults: ${JSON.stringify(
+        aggregatedResults,
+        null,
+        2
+      )}`
+    )
   }
 
   onRunComplete(
     test?: Set<Context>,
     runResults?: AggregatedResult
   ): Promise<void> | void {
-    console.log(`onRunComplete arguments: ${JSON.stringify(arguments)}`)
+    console.log(`onRunComplete test: ${JSON.stringify(test, null, 2)}`)
+
+    console.log(
+      `onRunComplete runResults: ${JSON.stringify(runResults, null, 2)}`
+    )
   }
 
   getLastError(): Error | undefined {
