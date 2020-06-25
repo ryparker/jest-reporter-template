@@ -27,7 +27,15 @@ yarn build
 
 ## :wrench: Using the reporter
 
-To use the reporter you will will need to add the reporter's path to the `reporters` option in your `jest.config.js`. See the [official Jest docs](https://jestjs.io/docs/en/configuration#reporters-arraymodulename--modulename-options) for more details.
+To use the reporter you will will need to add the reporter's path to the `reporters` option in your `jest.config.js`. 
+
+```JSON
+{
+  "reporters": ["<rootDir>/my-custom-reporter.js"]
+}
+```
+
+See the [official Jest docs](https://jestjs.io/docs/en/configuration#reporters-arraymodulename--modulename-options) for more details.
 
 ## :spiral_notepad: Gist
 
