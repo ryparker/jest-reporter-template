@@ -5,6 +5,9 @@
   "repository": "https://ryparker@github.com/ryparker/jest-reporter-template.git",
   "author": "Ryan Parker <ryan.parker3@outlook.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "main": "dist/reporter",
   "types": "dist/types",
   "scripts": {
