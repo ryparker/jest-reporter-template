@@ -29,7 +29,7 @@ yarn build
 
 To use the reporter you will will need to add the reporter's path to the `reporters` option in your `jest.config.js`. 
 
-Note: Jest config does not automagically transpile Typescript reporters yet. Although there currently is an [open feature request](https://github.com/facebook/jest/issues/8810) for this.
+__**Note: Jest config does not automagically transpile Typescript reporters yet. Although there currently is an [open feature request](https://github.com/facebook/jest/issues/8810) for this.**__
 
 ```JSON
 {
