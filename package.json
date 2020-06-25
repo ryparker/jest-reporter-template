@@ -1,5 +1,6 @@
 {
   "name": "jest-reporter-template",
+  "description": "A template for creating custom Jest reporters.",
   "version": "0.0.1",
   "repository": "https://ryparker@github.com/ryparker/jest-reporter-template.git",
   "author": "Ryan Parker <ryan.parker3@outlook.com>",
