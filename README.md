@@ -29,4 +29,4 @@ yarn build
 
 If you'd rather not use this repository here is a Gist with the main interface for creating a Jest reporter.
 
-[Jest-Reporter-Interface](https://gist.github.com/ryparker/188849eb0f78f53316ef99bf6a4467d5)
+[Gist of Jest-Reporter-Interface](https://gist.github.com/ryparker/188849eb0f78f53316ef99bf6a4467d5)
