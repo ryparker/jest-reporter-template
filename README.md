@@ -27,7 +27,7 @@ yarn build
 
 ## :wrench: Using the reporter
 
-To use the reporter you will will need to add the reporter's path to the `reporters` option in your `jest.config.js`. 
+You will will need to add the reporter's path to the `reporters` option in your `jest.config.js`. 
 
 __**Note: Jest config does not automagically transpile Typescript reporters yet. Although there is an [open feature request](https://github.com/facebook/jest/issues/8810) that you can follow.**__
 
