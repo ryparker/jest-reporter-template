@@ -47,4 +47,4 @@ If you'd rather not use this repository here is a Gist with the main interface f
 
 ## Related projects
 
-Jest Circus environment: [template repo](https://github.com/ryparker/jest-circus-reporter-template) | [Gist](https://gist.github.com/ryparker/d3f5cc58913ba7e89b5c34eeabc7bfd9)
+Jest Circus environment: [Template Project](https://github.com/ryparker/jest-circus-reporter-template) | [Gist](https://gist.github.com/ryparker/d3f5cc58913ba7e89b5c34eeabc7bfd9)
