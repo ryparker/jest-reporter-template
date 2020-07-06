@@ -44,3 +44,7 @@ See the [official Jest docs](https://jestjs.io/docs/en/configuration#reporters-a
 If you'd rather not use this repository here is a Gist with the main interface for creating a Jest reporter.
 
 [Gist of Jest-Reporter-Interface](https://gist.github.com/ryparker/188849eb0f78f53316ef99bf6a4467d5)
+
+## Related projects
+
+Jest Circus environment: [template repo](https://github.com/ryparker/jest-circus-reporter-template) | [Gist](https://gist.github.com/ryparker/d3f5cc58913ba7e89b5c34eeabc7bfd9)
