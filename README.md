@@ -5,7 +5,7 @@
 
 A template for creating custom Jest reporters using Typescript.
 
-## :rocket: Quickstart
+## :rocket: Quick start
 
 1. Clone
 
