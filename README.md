@@ -5,6 +5,10 @@
 
 A template for creating custom Jest reporters using Typescript.
 
+## :spiral_notepad: Gist
+
+If you'd rather not use this repository here is a [Gist](https://gist.github.com/ryparker/188849eb0f78f53316ef99bf6a4467d5) with the main interface for creating a Jest reporter.
+
 ## :rocket: Quick start
 
 1. Clone
@@ -38,12 +42,6 @@ __**Note: Jest config does not automagically transpile Typescript reporters yet.
 ```
 
 See the [official Jest docs](https://jestjs.io/docs/en/configuration#reporters-arraymodulename--modulename-options) for more details.
-
-## :spiral_notepad: Gist
-
-If you'd rather not use this repository here is a Gist with the main interface for creating a Jest reporter.
-
-[Gist of Jest-Reporter-Interface](https://gist.github.com/ryparker/188849eb0f78f53316ef99bf6a4467d5)
 
 ## Related projects
 
