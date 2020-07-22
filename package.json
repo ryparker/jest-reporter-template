@@ -1,18 +1,18 @@
 {
   "name": "jest-reporter-template",
-  "description": "",
   "version": "0.0.1",
-  "repository": "",
-  "author": "",
+  "description": "<Provide your project description>",
+  "repository": "<Provide your repository link>",
+  "author": "<Provide your author>",
   "license": "MIT",
   "files": [
     "dist"
   ],
-  "main": "dist/index",
+  "main": "dist",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "lint": "xo .",
-    "fix": "xo . --fix"
+    "test": "jest"
   },
   "dependencies": {
     "@jest/reporters": "^26.1.0"
@@ -20,10 +20,8 @@
   "devDependencies": {
     "@types/jest": "^26.0.5",
     "@types/node": "^14.0.24",
-    "eslint-plugin-jest": "^23.17.1",
     "jest": "^26.1.0",
     "rimraf": "^3.0.2",
-    "typescript": "^3.9.7",
-    "xo": "^0.32.0"
+    "typescript": "^3.9.7"
   }
 }
